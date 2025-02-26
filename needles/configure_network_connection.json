@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 133,
+      "ypos": 62,
+      "width": 229,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_network_connection"
+  ]
+}

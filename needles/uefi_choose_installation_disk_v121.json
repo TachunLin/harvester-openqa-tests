@@ -1,0 +1,22 @@
+{
+  "area": [
+    {
+      "xpos": 134,
+      "ypos": 58,
+      "width": 533,
+      "height": 25,
+      "type": "match"
+    },
+    {
+      "xpos": 131,
+      "ypos": 103,
+      "width": 151,
+      "height": 131,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "uefi_choose_installation_disk_v121"
+  ]
+}

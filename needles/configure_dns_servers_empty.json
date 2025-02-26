@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 107,
+      "ypos": 42,
+      "width": 813,
+      "height": 157,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_dns_servers_empty"
+  ]
+}

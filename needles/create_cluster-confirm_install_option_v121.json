@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 125,
+      "ypos": 57,
+      "width": 361,
+      "height": 248,
+      "type": "match"
+    },
+    {
+      "xpos": 133,
+      "ypos": 368,
+      "width": 108,
+      "height": 13,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 461,
+      "width": 520,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "create_cluster-confirm_install_option_v121"
+  ]
+}

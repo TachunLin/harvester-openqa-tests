@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 124,
+      "ypos": 143,
+      "width": 784,
+      "height": 49,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "dhcp_vip_assigned"
+  ]
+}

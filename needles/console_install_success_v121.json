@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 188,
+      "ypos": 153,
+      "width": 186,
+      "height": 37,
+      "type": "match"
+    },
+    {
+      "xpos": 186,
+      "ypos": 219,
+      "width": 186,
+      "height": 25,
+      "type": "match"
+    },
+    {
+      "xpos": 188,
+      "ypos": 255,
+      "width": 106,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 187,
+      "ypos": 316,
+      "width": 150,
+      "height": 23,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "console_install_success_v121"
+  ]
+}

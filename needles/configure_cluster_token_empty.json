@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 111,
+      "ypos": 44,
+      "width": 813,
+      "height": 156,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_cluster_token_empty"
+  ]
+}

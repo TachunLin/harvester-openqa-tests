@@ -1,0 +1,43 @@
+{
+  "area": [
+    {
+      "width": 227,
+      "type": "match",
+      "height": 17,
+      "ypos": 64,
+      "xpos": 135
+    },
+    {
+      "width": 172,
+      "height": 49,
+      "type": "match",
+      "ypos": 110,
+      "xpos": 134
+    },
+    {
+      "height": 111,
+      "type": "match",
+      "width": 295,
+      "xpos": 132,
+      "ypos": 386
+    },
+    {
+      "type": "match",
+      "height": 57,
+      "width": 64,
+      "xpos": 131,
+      "ypos": 563
+    },
+    {
+      "xpos": 131,
+      "ypos": 509,
+      "width": 718,
+      "height": 36,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "create_cluster-confirm_install_option_140"
+  ]
+}

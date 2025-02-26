@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 216,
+      "ypos": 158,
+      "width": 136,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 223,
+      "ypos": 222,
+      "width": 106,
+      "height": 20,
+      "type": "match"
+    },
+    {
+      "xpos": 213,
+      "ypos": 255,
+      "width": 37,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 223,
+      "ypos": 317,
+      "width": 111,
+      "height": 20,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "image_installation_success_v120"
+  ]
+}

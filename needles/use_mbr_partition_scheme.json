@@ -1,0 +1,22 @@
+{
+  "area": [
+    {
+      "xpos": 134,
+      "ypos": 62,
+      "width": 420,
+      "height": 19,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 158,
+      "width": 221,
+      "height": 19,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "installation_disk_partition"
+  ]
+}

@@ -1,0 +1,152 @@
+#!/usr/share/openqa/script/load_templates
+#
+# openSUSE Machines, Products, TestSuites and JobTemplates
+#
+# use load_templates to load the file into the database
+#
+{
+  JobTemplates => [
+                    {
+                      group_name => "harvester_iso",
+                      machine => { name => "64bit" },
+                      prio => 50,
+                      product => {
+                        arch    => "x86_64",
+                        distri  => "opensuse",
+                        flavor  => "ISO",
+                        group   => "harvester_iso",
+                        version => "*",
+                      },
+                      test_suite => { name => "install_only" },
+                    },
+                    {
+                      group_name => "harvester_aarch64",
+                      machine => { name => "aarch64" },
+                      prio => 50,
+                      product => {
+                        arch    => "aarch64",
+                        distri  => "opensuse",
+                        flavor  => "NET",
+                        group   => "harvester_aarch64",
+                        version => "*",
+                      },
+                      test_suite => { name => "install_only" },
+                    },
+                  ],
+                  
+  Machines     => [
+                    {
+                      backend => "qemu",
+                      name => "64bit",
+                      settings => [
+                        { key => "QEMUCPU", value => "qemu64" },
+                        { key => "QEMUCPUS", value => 12 },
+                        { key => "QEMUTHREADS", value => 12 },
+                        { key => "QEMURAM", value => 16384 },
+                        { key => "VIRTIO_CONSOLE", value => "1" },
+                        { key => "HDDSIZEGB", value => 400 },
+                        { key => "WORKER_CLASS", value => "qemu_x86_64" },
+                      ],
+                    },
+                    {
+                      backend => "qemu",
+                      name => "aarch64",
+                      settings => [
+                        { key => "BIOS", value => "qemu-uefi-aarch64.bin" },
+                        { key => "CDMODEL", value => "virtio-blk-device" },
+                        { key => "HDDMODEL", value => "virtio-blk-device" },
+                        { key => "QEMU", value => "aarch64" },
+                        { key => "QEMUCPU", value => "cortex-a57" },
+                        { key => "QEMUMACHINE", value => "virt" },
+                        { key => "QEMU_NO_KVM", value => 1 },
+                        { key => "SERIALDEV", value => "ttyAMA0" },
+                        { key => "TIMEOUT_SCALE", value => 4 },
+                        { key => "UEFI", value => 1 },
+                        { key => "VGA", value => "std" },
+                        { key => "WORKER_CLASS", value => "qemu_aarch64" },
+                      ],
+                    },
+                  ],
+                  
+  Products     => [
+                    {
+                      arch     => "x86_64",
+                      distri   => "opensuse",
+                      flavor   => "ISO",
+                      settings => [
+                                    { key => "ISO_MAXSIZE", value => 999999999 },
+                                    { key => "HDDSIZEGB", value => 400 },
+                                    { key => "LIVECD", value => 1 },
+                                  ],
+                      version  => "*",
+                    },
+                    {
+                      arch     => "aarch64",
+                      distri   => "opensuse",
+                      flavor   => "NET",
+                      settings => [
+                                    { key => "ISO_MAXSIZE", value => 737280000 },
+                                    { key => "HDDSIZEGB", value => 400 },
+                                    { key => "LIVECD", value => 1 },
+                                  ],
+                      version  => "*",
+                    },
+                  ],
+                  
+  TestSuites   => [
+                    {
+                      name => "uefi",
+                      settings => [
+                        { key => "DESKTOP", value => "kde" },
+                        { key => "INSTALLONLY", value => 1 },
+                        { key => "HDDSIZEGB", value => 400 },
+                        { key => "UEFI", value => 1 },
+                        { key => "TEST", value => "uefi" },
+                      ],
+                    },
+                    {
+                      name => "install_only",
+                      settings => [
+                        { key => "DESKTOP", value => "kde" },
+                        { key => "HDDSIZEGB", value => 400 },
+                        { key => "INSTALLONLY", value => 1 },
+			{ key => "TEST", value => "iso_install" },
+                      ],
+                    },
+                    {
+                      name => "create_node",
+                      settings => [ 
+                        { key => "DESKTOP", value => "kde" },
+                        { key => "HDDSIZEGB", value => 400 },
+                        { key => "INSTALLONLY", value => 1 },
+                        { key => "MACHINE", value => "64bit" },
+                        { key => "QEMUCPU", value => "qemu64" },
+                        { key => "QEMUCPUS", value => 12 },
+                        { key => "QEMUTHREADS", value => 12 },
+                        { key => "QEMURAM", value => 16384 },
+                        { key => "VIRTIO_CONSOLE", value => 1 },
+                        { key => "QEMUCPU", value => "qemu64" },
+                        { key => "WORKER_CLASS", value => "qemu_x86_64" },
+			{ key => "TEST", value => "create_node" },	
+                      ],
+                    },
+                    {
+                      name => "join_node",
+                      settings => [ 
+                        { key => "DESKTOP", value => "kde" },
+                        { key => "HDDSIZEGB", value => 400 },
+                        { key => "INSTALLONLY", value => 1 },
+                        { key => "MACHINE", value => "64bit" },
+                        { key => "QEMUCPU", value => "qemu64" },
+                        { key => "QEMUCPUS", value => 12 },
+                        { key => "QEMUTHREADS", value => 12 },
+                        { key => "QEMURAM", value => 16384 },
+                        { key => "VIRTIO_CONSOLE", value => 1 },
+                        { key => "QEMUCPU", value => "qemu64" },
+                        { key => "WORKER_CLASS", value => "qemu_x86_64" },
+			{ key => "TEST", value => "join_node" },
+                      ],
+                    },
+
+                  ],
+}

@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 101,
+      "ypos": 40,
+      "width": 833,
+      "height": 169,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_proxy"
+  ]
+}
