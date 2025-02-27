@@ -5,7 +5,7 @@ openQA automation test for Harvester iso installation
 
 We leverage openQA to test [Harvester ISO installation](https://docs.harvesterhci.io/v1.4/install/index) process
 
-    {{< image "./static/images/openqa_harvester.png" >}}
+![openqa_harvester](./static/images/openqa_harvester.png)
 
 Test scripts extend from [ os-autoinst](https://github.com/os-autoinst/os-autoinst) code structure to focus on verifying different Harvester ISO installation user scenarios 
 
@@ -83,8 +83,7 @@ We use the [Quick bootstrapping under openSUSE](https://open.qa/dos/#bootstrappi
 - The openQA web UI should be available on http://localhost/ now.
 - Click the login button, automatically login with Demo user (Fake authentication)
 
-    {{< image "./static/images/openqa_dashboard.png" >}}
-
+    ![openqa_dashboard](./static/images/openqa_dashboard.png)
 
 #### Setup openQA workers
 1. Setup openQA worker

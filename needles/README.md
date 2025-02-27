@@ -10,4 +10,4 @@ Refer to https://open.qa/docs/#_needles
 
 2. Needles can be generated on the openQA dashboard 
 
-    {{< image "./static/images/openqa_dashboard_needles" >}}
+    ![openqa_dashboard_needles](../static/images/openqa_dashboard_needles.png)
