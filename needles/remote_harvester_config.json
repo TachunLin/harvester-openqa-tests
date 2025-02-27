@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 109,
+      "ypos": 44,
+      "width": 821,
+      "height": 122,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "remote_harvester_config"
+  ]
+}

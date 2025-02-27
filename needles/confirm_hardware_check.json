@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 134,
+      "ypos": 63,
+      "width": 124,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 207,
+      "width": 187,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 125,
+      "ypos": 242,
+      "width": 59,
+      "height": 59,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "confirm_hardware_check"
+  ]
+}

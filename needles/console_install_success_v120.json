@@ -1,0 +1,22 @@
+{
+  "area": [
+    {
+      "xpos": 220,
+      "ypos": 218,
+      "width": 114,
+      "height": 26,
+      "type": "match"
+    },
+    {
+      "xpos": 219,
+      "ypos": 313,
+      "width": 116,
+      "height": 27,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "console_install_success_v120"
+  ]
+}

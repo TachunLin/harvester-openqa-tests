@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 190,
+      "ypos": 159,
+      "type": "match",
+      "height": 94,
+      "width": 269
+    },
+    {
+      "xpos": 637,
+      "ypos": 130,
+      "width": 157,
+      "height": 13,
+      "type": "match"
+    },
+    {
+      "xpos": 192,
+      "ypos": 258,
+      "width": 266,
+      "height": 91,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "installation_ongoing_console_v140"
+  ]
+}

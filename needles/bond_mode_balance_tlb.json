@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 131,
+      "ypos": 193,
+      "width": 768,
+      "height": 43,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "bond_mode_balance_tlb"
+  ]
+}

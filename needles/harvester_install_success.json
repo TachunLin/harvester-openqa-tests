@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 196,
+      "ypos": 172,
+      "width": 205,
+      "height": 23,
+      "type": "match"
+    },
+    {
+      "xpos": 197,
+      "ypos": 208,
+      "width": 143,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 195,
+      "ypos": 239,
+      "width": 138,
+      "height": 54,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "harvester_install_success"
+  ]
+}

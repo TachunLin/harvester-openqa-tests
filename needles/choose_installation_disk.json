@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 116,
+      "ypos": 50,
+      "width": 791,
+      "height": 194,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "choose_installation_disk"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 132,
+      "ypos": 59,
+      "width": 201,
+      "height": 25,
+      "type": "match"
+    },
+    {
+      "xpos": 383,
+      "ypos": 33,
+      "width": 250,
+      "height": 12,
+      "type": "ocr"
+    },
+    {
+      "xpos": 357,
+      "ypos": 114,
+      "width": 38,
+      "height": 10,
+      "type": "match"
+    },
+    {
+      "xpos": 604,
+      "ypos": 74,
+      "width": 10,
+      "height": 10,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "Choose_installation_mode"
+  ]
+}

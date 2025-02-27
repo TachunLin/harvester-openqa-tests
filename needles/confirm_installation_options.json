@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 132,
+      "ypos": 59,
+      "width": 232,
+      "height": 26,
+      "type": "match"
+    },
+    {
+      "xpos": 130,
+      "ypos": 110,
+      "width": 252,
+      "height": 33,
+      "type": "match"
+    },
+    {
+      "xpos": 131,
+      "ypos": 352,
+      "width": 123,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "confirm_installation_options"
+  ]
+}

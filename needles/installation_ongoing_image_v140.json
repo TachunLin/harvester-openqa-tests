@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 638,
+      "ypos": 129,
+      "width": 155,
+      "height": 14,
+      "type": "match"
+    },
+    {
+      "xpos": 190,
+      "ypos": 154,
+      "width": 269,
+      "height": 98,
+      "type": "match"
+    },
+    {
+      "xpos": 204,
+      "ypos": 317,
+      "width": 208,
+      "height": 20,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "installation_ongoing_image_v140"
+  ]
+}
