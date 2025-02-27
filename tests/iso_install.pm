@@ -143,16 +143,6 @@ sub run {
     assert_screen "confirm_install_option_v140";
     send_key "ret"; #Click enter on Yes field and ready to install harvester
 
-    ## Confirm start the console setting progress
-    #assert_screen "installation_ongoing_console_v120", 10;
-
-    #sleep 600;
-	
-    # assert_screen "test";
-
-    # Confirm can successfully install Harvester
-    #assert_screen "console_install_success_v120";
-
     # Confirm start the console setting progress
     assert_screen "installation_ongoing_image_v140", 900;
 

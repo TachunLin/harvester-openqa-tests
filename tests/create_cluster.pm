@@ -16,13 +16,6 @@ sub run {
     ## Page: Choose installation mode page
     assert_screen "select_installation_mode";
  
-    #send_key "down";
-
-    # select Install Harvester binaries only
-    #send_key "down";
-
-    # sleep 5;
-    #
     # select Create Harvester cluster
     send_key "ret"; 
 
@@ -64,26 +57,6 @@ sub run {
     type_string "n1-create"; #Enter value in Cluster token field
 
     send_key "ret"; #Click "enter" to enter hostname
-
-
-    # Page - Configure Network
-    #    send_key "tab"; #Click tab in Management NIC field
-    #    sleep 3;
-    #    send_key "spc"; #Click space to select Management NIC field
-
-    #    send_key "ret"; #Click "enter" to select the Management NIC
-
-
-
-    # send_key "ret"; #Click enter to select the VLAN ID
-
-    # send_key "ret"; #Click enter on Bond Mode field
-
-    # assert_screen "image_create_config_management-NIC";
-
-    # send_key "ret"; #Click enter use the IPv4 Method
-
-    # sleep 10;
 
     # Configure DNS Servers Page #
 

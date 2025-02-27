@@ -1,4 +1,4 @@
-## Job Template
+## Needles
 
 Usage: needles is used to perform fuzzy image matching between the screen and expected result
 
@@ -10,4 +10,4 @@ Refer to https://open.qa/docs/#_needles
 
 2. Needles can be generated on the openQA dashboard 
 
-{{< image "../images/openqa_dashboard_needles" >}}
+    {{< image "./static/images/openqa_dashboard_needles" >}}

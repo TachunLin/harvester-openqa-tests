@@ -16,13 +16,6 @@ sub run {
     ## Page: Choose installation mode page
     assert_screen "select_installation_mode";
 
-    #send_key "down";
-
-    # select Install Harvester binaries only
-    #send_key "down";
-
-    # sleep 5;
-    #
     # select Create Harvester cluster
     send_key "ret"; 
 
