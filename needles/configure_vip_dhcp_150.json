@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 135,
+      "ypos": 64,
+      "width": 107,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 112,
+      "width": 66,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 287,
+      "ypos": 99,
+      "width": 143,
+      "height": 39,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_vip_dhcp_150"
+  ]
+}

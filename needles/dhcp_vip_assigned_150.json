@@ -1,0 +1,50 @@
+{
+  "area": [
+    {
+      "width": 109,
+      "height": 16,
+      "type": "match",
+      "ypos": 64,
+      "xpos": 133
+    },
+    {
+      "xpos": 134,
+      "ypos": 111,
+      "type": "match",
+      "height": 17,
+      "width": 67
+    },
+    {
+      "width": 93,
+      "height": 17,
+      "type": "match",
+      "ypos": 159,
+      "xpos": 133
+    },
+    {
+      "ypos": 207,
+      "xpos": 134,
+      "width": 28,
+      "type": "match",
+      "height": 16
+    },
+    {
+      "xpos": 297,
+      "ypos": 207,
+      "type": "match",
+      "height": 16,
+      "width": 71
+    },
+    {
+      "type": "match",
+      "height": 15,
+      "width": 128,
+      "xpos": 297,
+      "ypos": 113
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "dhcp_vip_assigned_150"
+  ]
+}

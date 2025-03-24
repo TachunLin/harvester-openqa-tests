@@ -1,0 +1,43 @@
+{
+  "area": [
+    {
+      "xpos": 134,
+      "ypos": 63,
+      "width": 203,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 133,
+      "ypos": 112,
+      "width": 70,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 160,
+      "width": 101,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 133,
+      "ypos": 207,
+      "width": 117,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 130,
+      "ypos": 252,
+      "width": 721,
+      "height": 56,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_cluster_network_150"
+  ]
+}

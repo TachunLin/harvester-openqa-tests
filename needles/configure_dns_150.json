@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 136,
+      "ypos": 63,
+      "width": 168,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 111,
+      "width": 89,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 159,
+      "width": 641,
+      "height": 17,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_dns_150"
+  ]
+}

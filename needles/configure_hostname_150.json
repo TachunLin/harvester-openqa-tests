@@ -1,0 +1,22 @@
+{
+  "area": [
+    {
+      "xpos": 135,
+      "ypos": 63,
+      "width": 289,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 136,
+      "ypos": 112,
+      "width": 64,
+      "height": 15,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_hostname_150"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "area": [
+    {
+      "xpos": 136,
+      "ypos": 63,
+      "width": 224,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 112,
+      "width": 170,
+      "height": 30,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 162,
+      "width": 259,
+      "height": 45,
+      "type": "match"
+    },
+    {
+      "xpos": 132,
+      "ypos": 401,
+      "width": 262,
+      "height": 61,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 481,
+      "width": 116,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 512,
+      "width": 115,
+      "height": 17,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "create_confirm_install_option_150",
+    "iso_confirm_install_option_150"
+  ]
+}
