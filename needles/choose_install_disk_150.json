@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 122,
+      "ypos": 88,
+      "width": 793,
+      "height": 163,
+      "type": "match"
+    },
+    {
+      "xpos": 130,
+      "ypos": 351,
+      "width": 224,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 127,
+      "ypos": 387,
+      "width": 35,
+      "height": 42,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "choose_install_disk_150"
+  ]
+}

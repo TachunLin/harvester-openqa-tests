@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 211,
+      "ypos": 159,
+      "width": 145,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 220,
+      "ypos": 223,
+      "width": 233,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 213,
+      "ypos": 255,
+      "width": 39,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 221,
+      "ypos": 318,
+      "width": 189,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "iso_config_ongoing_150"
+  ]
+}

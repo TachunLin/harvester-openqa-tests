@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 132,
+      "ypos": 60,
+      "width": 447,
+      "height": 119,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "configure_cluster_token_harvester_150"
+  ]
+}
