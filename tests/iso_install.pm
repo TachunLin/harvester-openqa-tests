@@ -49,7 +49,7 @@ sub run {
 
     # Page Confirm installation options
 
-    assert_screen "confirm_image_install_option_140";
+    assert_screen "confirm_image_install_option_161";
 
     send_key "ret"; #Click "enter" to proceed to next screen
 

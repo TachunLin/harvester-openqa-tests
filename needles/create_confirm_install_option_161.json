@@ -1,0 +1,43 @@
+{
+  "area": [
+    {
+      "xpos": 135,
+      "ypos": 63,
+      "width": 226,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 136,
+      "ypos": 113,
+      "width": 169,
+      "height": 47,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 404,
+      "width": 258,
+      "height": 44,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 465,
+      "width": 114,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 497,
+      "width": 115,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "create_confirm_install_option_161"
+  ]
+}

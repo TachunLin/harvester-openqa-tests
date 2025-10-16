@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 135,
+      "ypos": 64,
+      "width": 226,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 111,
+      "width": 262,
+      "height": 80,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 273,
+      "width": 109,
+      "height": 14,
+      "type": "match"
+    },
+    {
+      "xpos": 132,
+      "ypos": 335,
+      "width": 685,
+      "height": 16,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "confirm_image_install_option_161"
+  ]
+}
