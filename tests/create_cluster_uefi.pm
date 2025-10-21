@@ -121,7 +121,7 @@ sub run {
     send_key "ret"; #Click enter on Http URL field and procced to next page
 
     # Confirm installation options page#
-    assert_screen "create_confirm_install_option_150";
+    assert_screen "create_confirm_install_option_161";
     send_key "ret"; #Click enter on Yes field and ready to install harvester
 
     # Confirm start the console setting progress
