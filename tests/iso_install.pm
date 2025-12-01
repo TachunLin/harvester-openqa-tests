@@ -26,6 +26,14 @@ sub run {
     # sleep 5;
     send_key "ret"; #Click "enter" on the 
 
+    # Page Configure Password
+    assert_screen "change_password";
+
+    type_string "passwd"; #Enter value in the password field
+    send_key "ret"; #Click enter 
+
+    type_string "passwd"; #Enter value in the confirm password field
+
     ## Page: Disk selection page 
     assert_screen "choose_install_disk_150";
 
@@ -36,16 +44,6 @@ sub run {
     send_key "ret"; #Click "enter" on the Use MBR partition scheme
 
     send_key "ret"; #Click "enter" to proceed to next screen
-
-
-    # Page Configure Password 
-    assert_screen "configure_password_150";
-
-    type_string "passwd"; #Enter value in the password field
-    send_key "ret"; #Click enter 
-
-    type_string "passwd"; #Enter value in the confirm password field
-    send_key "ret"; #Click enter to proceed 
 
     # Page Confirm installation options
 
@@ -121,17 +119,6 @@ sub run {
     assert_screen "configure_cluster_token_harvester_150";
 
     send_key "ret"; #Click enter on Cluster token field and procced to next page
-
-
-    # Configure the password to access the node page#
-    
-    assert_screen "configure_password_150";
-
-    type_string "passwd"; #Enter value in the password field
-    send_key "ret"; #Click enter 
-
-    type_string "passwd"; #Enter value in the confirm password field
-    send_key "ret"; #Click enter to proceed
 
     # Optional: Configure NTP Servers page#
     assert_screen "configure_ntp_server_150";
