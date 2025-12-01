@@ -33,6 +33,7 @@ sub run {
     send_key "ret"; #Click enter 
 
     type_string "passwd"; #Enter value in the confirm password field
+    send_key "ret"; #Click enter to proceed
 
     ## Page: Disk selection page 
     assert_screen "choose_install_disk_150";
