@@ -44,8 +44,6 @@ sub run {
 
     send_key "ret"; #Click "enter" on the Use MBR partition scheme
 
-    send_key "ret"; #Click "enter" to proceed to next screen
-
     # Page Confirm installation options
 
     assert_screen "confirm_image_install_option_161";
