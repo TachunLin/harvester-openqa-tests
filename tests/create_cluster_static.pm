@@ -47,18 +47,33 @@ sub run {
     send_key "ret"; #Click "enter" to select the Management NIC
 
     send_key "ret"; #Click enter to select the VLAN ID
+    #type_string "100"; #Click enter VLAN ID 100
+    #send_key "ret";
 
     send_key "ret"; #Click enter on Bond Mode field
 
-    assert_screen "configure_network_150";
+    #assert_screen "configure_network_150";
 
-    send_key "ret"; #Click enter use the IPv4 Method
+    send_key "tab";  #Click tab on the IPv4 Method
+    send_key "down"; #Select Static IP
+
+    send_key "ret"; #Click enter use this IPv4 Method
+
+    type_string "10.0.2.100/24"; #Input static IP
+    send_key "ret";
+
+    send_key "ret"; #Automatic provide mask 255.255.254.0
+
+    type_string "10.0.2.2"; #Inpu gateway IP
+    send_key "ret";
+
+    assert_screen "configure_cluster_network_static";
+
+    send_key "ret"; # Use default empty mtu
 
     sleep 10;
 
     # Configure cluster network
-
-    assert_screen "configure_cluster_network_150";
 
     send_key "ret"; #Click enter to input Pod CIDR
 
@@ -78,19 +93,20 @@ sub run {
 
     sleep 5;
     assert_screen "configure_dns_150";
+    type_string "8.8.8.8"; #Input global DNS server value
     send_key "ret"; #Click enter on DNS Servers field and procced to next page
 
     # Configure VIP Page #
 
     sleep 5;
     assert_screen "configure_vip_dhcp_150", 60;
-    send_key "ret"; #Click enter on MAC Address
-    send_key "ret"; #Click enter on VIP mode field
-    
-    #assert_screen "dhcp_vip_assigned_150";
-    sleep 10;
-    assert_screen "dhcp_vip_assigned_170";
+    send_key "tab";  #Click tab on the IPv4 Method
+    send_key "down"; #Select Static IP
+    send_key "ret";
 
+    type_string "10.0.2.101";
+
+    assert_screen "static_vip_assigned";
     send_key "ret"; #Click enter on VIP field to proceed to next page
 
 
@@ -103,16 +119,6 @@ sub run {
     assert_screen "configure_cluster_token_harvester_150";
 
     send_key "ret"; #Click enter on Cluster token field and procced to next page
-
-
-    # Page Configure Password
-    #assert_screen "configure_password_150";
-
-    #type_string "passwd"; #Enter value in the password field
-    #send_key "ret"; #Click enter 
-
-    #type_string "passwd"; #Enter value in the confirm password field
-    #send_key "ret"; #Click enter to proceed 
 
     # Optional: Configure NTP Servers page#
     assert_screen "configure_ntp_server_150";
@@ -131,7 +137,7 @@ sub run {
     send_key "ret"; #Click enter on Http URL field and procced to next page
 
     # Confirm installation options page#
-    assert_screen "create_confirm_install_option_161";
+    assert_screen "create_confirm_install_static_170";
     send_key "ret"; #Click enter on Yes field and ready to install harvester
 
 

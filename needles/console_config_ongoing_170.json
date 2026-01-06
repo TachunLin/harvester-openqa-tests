@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 215,
+      "ypos": 158,
+      "width": 138,
+      "height": 18,
+      "type": "match"
+    },
+    {
+      "xpos": 222,
+      "ypos": 222,
+      "width": 226,
+      "height": 19,
+      "type": "match"
+    },
+    {
+      "xpos": 223,
+      "ypos": 317,
+      "width": 187,
+      "height": 20,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "console_config_ongoing_170"
+  ]
+}

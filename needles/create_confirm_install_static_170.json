@@ -1,0 +1,51 @@
+{
+  "area": [
+    {
+      "xpos": 134,
+      "ypos": 61,
+      "width": 226,
+      "height": 19,
+      "type": "match"
+    },
+    {
+      "xpos": 136,
+      "ypos": 112,
+      "width": 161,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 136,
+      "ypos": 290,
+      "width": 169,
+      "height": 14,
+      "type": "match"
+    },
+    {
+      "xpos": 165,
+      "ypos": 432,
+      "width": 116,
+      "height": 16,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 464,
+      "width": 98,
+      "height": 17,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 544,
+      "width": 131,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "create_confirm_install_static_170",
+    "create_confirm_install_static_170"
+  ]
+}
