@@ -19,6 +19,15 @@ sub run {
     # select Create Harvester cluster
     send_key "ret"; 
 
+    # Page Configure Password
+    assert_screen "change_password";
+
+    type_string "passwd"; #Enter value in the password field
+    send_key "ret"; #Click enter 
+
+    type_string "passwd"; #Enter value in the confirm password field
+    send_key "ret"; #Click enter to proceed
+
     ## Page: Disk selection page 
     assert_screen "choose_install_disk_150";
 
@@ -92,16 +101,6 @@ sub run {
     assert_screen "configure_cluster_token_harvester_150";
 
     send_key "ret"; #Click enter on Cluster token field and procced to next page
-
-
-    # Page Configure Password
-    assert_screen "configure_password_150";
-
-    type_string "passwd"; #Enter value in the password field
-    send_key "ret"; #Click enter 
-
-    type_string "passwd"; #Enter value in the confirm password field
-    send_key "ret"; #Click enter to proceed 
 
     # Optional: Configure NTP Servers page#
     assert_screen "configure_ntp_server_150";
