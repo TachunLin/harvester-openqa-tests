@@ -63,6 +63,12 @@ set_var('DESKTOP', check_var('VIDEOMODE', 'text') ? 'textmode' : 'kde') unless g
 if (check_var('TEST', 'create_node')) {
     loadtest "harvester/create_cluster";
 }
+if (check_var('TEST', 'create_node_static')) {
+    loadtest "harvester/create_cluster_static";
+}
+if (check_var('TEST', 'create_node_vlan')) {
+    loadtest "harvester/create_cluster_vlan";
+}
 elsif (check_var('TEST', 'join_node')) {
     loadtest "harvester/join_cluster";
 }

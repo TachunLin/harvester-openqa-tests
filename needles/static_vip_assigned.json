@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 133,
+      "ypos": 61,
+      "width": 109,
+      "height": 21,
+      "type": "match"
+    },
+    {
+      "xpos": 133,
+      "ypos": 106,
+      "width": 69,
+      "height": 26,
+      "type": "match"
+    },
+    {
+      "xpos": 131,
+      "ypos": 204,
+      "width": 34,
+      "height": 22,
+      "type": "match"
+    },
+    {
+      "xpos": 285,
+      "ypos": 99,
+      "width": 69,
+      "height": 40,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "static_vip_assigned"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 134,
+      "ypos": 62,
+      "width": 227,
+      "height": 20,
+      "type": "match"
+    },
+    {
+      "xpos": 165,
+      "ypos": 385,
+      "width": 101,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 417,
+      "width": 99,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 136,
+      "ypos": 513,
+      "width": 114,
+      "height": 18,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "create_confirm_install_dhcp_170"
+  ]
+}

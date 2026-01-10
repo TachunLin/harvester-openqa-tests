@@ -46,7 +46,8 @@ sub run {
 
     send_key "ret"; #Click "enter" to select the Management NIC
 
-    send_key "ret"; #Click enter to select the VLAN ID
+    type_string "2017"; #Click enter VLAN ID 2017
+    send_key "ret";
 
     send_key "ret"; #Click enter on Bond Mode field
 
@@ -87,7 +88,6 @@ sub run {
     send_key "ret"; #Click enter on MAC Address
     send_key "ret"; #Click enter on VIP mode field
     
-    #assert_screen "dhcp_vip_assigned_150";
     sleep 10;
     assert_screen "dhcp_vip_assigned_170";
 
@@ -131,12 +131,12 @@ sub run {
     send_key "ret"; #Click enter on Http URL field and procced to next page
 
     # Confirm installation options page#
-    assert_screen "create_confirm_install_option_161";
+    assert_screen "create_confirm_install_dhcp_170";
     send_key "ret"; #Click enter on Yes field and ready to install harvester
 
 
     # Confirm start the console setting progress
-    assert_screen "console_config_ongoing_150", 900;
+    assert_screen "console_config_ongoing_170", 900;
 
 
     # Confirm can successfully install Harvester
