@@ -8,7 +8,7 @@ sub run {
     # the bootloader screen will timeout itself
     # assert_screen "bootloader", 15;
 
-    assert_screen "confirm_hardware_check_150", 45;
+    assert_screen "confirm_hardware_check_150", 90;
 
     # select to accept Hardware checks
     send_key "ret";
@@ -28,14 +28,11 @@ sub run {
     type_string "passwd"; #Enter value in the confirm password field
     send_key "ret"; #Click enter to proceed
 
-    ## Page: Disk selection page 
-    assert_screen "choose_install_disk_150";
+    assert_screen "choose_install_disk_uefi_180";
 
     send_key "ret"; #Click "enter" on the Choose installation disk
 
     send_key "ret"; #Click "enter" on the Use the Persistence size
-
-    send_key "ret"; #Click "enter" on the Use MBR partition scheme
 
     send_key "ret"; #Click "enter" to proceed to next screen
 

@@ -1,0 +1,29 @@
+{
+  "area": [
+    {
+      "xpos": 133,
+      "ypos": 61,
+      "width": 532,
+      "height": 21,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 158,
+      "width": 139,
+      "height": 19,
+      "type": "match"
+    },
+    {
+      "xpos": 133,
+      "ypos": 253,
+      "width": 125,
+      "height": 20,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "choose_install_disk_uefi_180"
+  ]
+}

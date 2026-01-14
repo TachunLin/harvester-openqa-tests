@@ -8,7 +8,7 @@ sub run {
     # the bootloader screen will timeout itself
     # assert_screen "bootloader", 15;
 
-    assert_screen "confirm_hardware_check_150", 45;
+    assert_screen "confirm_hardware_check_150", 90;
 
     # select to accept Hardware checks
     send_key "ret";
@@ -36,13 +36,11 @@ sub run {
     send_key "ret"; #Click enter to proceed
 
     ## Page: Disk selection page 
-    assert_screen "choose_install_disk_150";
+    assert_screen "choose_install_disk_uefi_180";
 
     send_key "ret"; #Click "enter" on the Choose installation disk
 
     send_key "ret"; #Click "enter" on the Use the Persistence size
-
-    send_key "ret"; #Click "enter" on the Use MBR partition scheme
 
     # Page Confirm installation options
 
@@ -136,10 +134,8 @@ sub run {
     send_key "ret"; #Click enter on Http URL field and procced to next page
 
     # Confirm installation options page#
-    assert_screen "iso_confirm_install_option_150";
+    assert_screen "confirm_binary_install_option_uefi_180";
     send_key "ret"; #Click enter on Yes field and ready to install harvester
-    ##assert_screen "confirm_install_option_v140";
-    ##send_key "ret"; #Click enter on Yes field and ready to install harvester
 
     # Confirm start the console setting progress
     assert_screen "iso_config_ongoing_150", 900;

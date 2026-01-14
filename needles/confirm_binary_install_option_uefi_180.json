@@ -1,0 +1,36 @@
+{
+  "area": [
+    {
+      "xpos": 135,
+      "ypos": 61,
+      "width": 226,
+      "height": 20,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 109,
+      "width": 169,
+      "height": 34,
+      "type": "match"
+    },
+    {
+      "xpos": 134,
+      "ypos": 401,
+      "width": 100,
+      "height": 15,
+      "type": "match"
+    },
+    {
+      "xpos": 135,
+      "ypos": 497,
+      "width": 115,
+      "height": 16,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "confirm_binary_install_option_uefi_180"
+  ]
+}
