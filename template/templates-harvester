@@ -183,7 +183,7 @@
                         { key => "TAPDEV", value => "tap-lab2017" },
                         { key => "VIRTIO_CONSOLE", value => 1 },
                         { key => "WORKER_CLASS", value => "qemu_x86_64,lab2017" },
-			                  { key => "UEFI", value => 1 },
+                        { key => "UEFI", value => 1 },
                         { key => "TEST", value => "create_cluster_vlan" },
                       ],
                     },
