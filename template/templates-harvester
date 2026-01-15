@@ -123,8 +123,8 @@
                         { key => "QEMURAM", value => 16384 },
                         { key => "VIRTIO_CONSOLE", value => 1 },
                         { key => "WORKER_CLASS", value => "qemu_x86_64" },
-			                  { key => "UEFI", value => 1 },
-			                  { key => "TEST", value => "iso_install" },
+                        { key => "UEFI", value => 1 },
+                        { key => "TEST", value => "iso_install" },
                       ],
                     },
                     {
@@ -142,7 +142,7 @@
                         { key => "VIRTIO_CONSOLE", value => 1 },
                         { key => "WORKER_CLASS", value => "qemu_x86_64" },
                         { key => "UEFI", value => 1 },
-			                  { key => "TEST", value => "create_node" },	
+                        { key => "TEST", value => "create_node" },	
                       ],
                     },
                     {
@@ -162,7 +162,7 @@
                         { key => "QEMUNETDEV", value => 1 },
                         { key => "VIRTIO_CONSOLE", value => 1 },
                         { key => "WORKER_CLASS", value => "qemu_x86_64,tap" },
-			                  { key => "UEFI", value => 1 },
+                        { key => "UEFI", value => 1 },
                         { key => "TEST", value => "create_cluster_static" },
                       ],
                     },
@@ -201,7 +201,8 @@
                         { key => "QEMURAM", value => 16384 },
                         { key => "VIRTIO_CONSOLE", value => 1 },
                         { key => "WORKER_CLASS", value => "qemu_x86_64" },
-			                  { key => "UEFI", value => 1 },
+                        { key => "UEFI", value => 1 },
+                        { key => "TEST", value => "join_node" },
                       ],
                     },
 
